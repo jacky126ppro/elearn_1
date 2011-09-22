@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D949954A142B0D16008B7997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9499549142B0D16008B7997 /* UIKit.framework */; };
+		D949954C142B0D16008B7997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949954B142B0D16008B7997 /* Foundation.framework */; };
+		D949954E142B0D16008B7997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949954D142B0D16008B7997 /* CoreGraphics.framework */; };
+		D9499554142B0D16008B7997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9499552142B0D16008B7997 /* InfoPlist.strings */; };
+		D9499556142B0D16008B7997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9499555142B0D16008B7997 /* main.m */; };
+		D949955A142B0D16008B7997 /* MingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9499559142B0D16008B7997 /* MingAppDelegate.m */; };
+		D949955D142B0D16008B7997 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D949955B142B0D16008B7997 /* MainWindow.xib */; };
+		D9499560142B0D16008B7997 /* MingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D949955F142B0D16008B7997 /* MingViewController.m */; };
+		D9499563142B0D16008B7997 /* MingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9499561142B0D16008B7997 /* MingViewController.xib */; };
+		D949956B142B0D17008B7997 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949956A142B0D17008B7997 /* SenTestingKit.framework */; };
+		D949956C142B0D17008B7997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9499549142B0D16008B7997 /* UIKit.framework */; };
+		D949956D142B0D17008B7997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949954B142B0D16008B7997 /* Foundation.framework */; };
+		D949956E142B0D17008B7997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949954D142B0D16008B7997 /* CoreGraphics.framework */; };
+		D9499576142B0D17008B7997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9499574142B0D17008B7997 /* InfoPlist.strings */; };
+		D9499578142B0D17008B7997 /* MingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D9499577142B0D17008B7997 /* MingTests.h */; };
+		D949957A142B0D17008B7997 /* MingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9499579142B0D17008B7997 /* MingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D949956F142B0D17008B7997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D949953C142B0D16008B7997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9499544142B0D16008B7997;
+			remoteInfo = Ming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9499545142B0D16008B7997 /* Ming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9499549142B0D16008B7997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D949954B142B0D16008B7997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D949954D142B0D16008B7997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9499551142B0D16008B7997 /* Ming-Info.plist */ = {isa = PBXFileReference; path = "Ming-Info.plist"; sourceTree = "<group>"; };
+		D9499553142B0D16008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9499555142B0D16008B7997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9499557142B0D16008B7997 /* Ming-Prefix.pch */ = {isa = PBXFileReference; path = "Ming-Prefix.pch"; sourceTree = "<group>"; };
+		D9499558142B0D16008B7997 /* MingAppDelegate.h */ = {isa = PBXFileReference; path = MingAppDelegate.h; sourceTree = "<group>"; };
+		D9499559142B0D16008B7997 /* MingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingAppDelegate.m; sourceTree = "<group>"; };
+		D949955C142B0D16008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D949955E142B0D16008B7997 /* MingViewController.h */ = {isa = PBXFileReference; path = MingViewController.h; sourceTree = "<group>"; };
+		D949955F142B0D16008B7997 /* MingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingViewController.m; sourceTree = "<group>"; };
+		D9499562142B0D16008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MingViewController.xib; sourceTree = "<group>"; };
+		D9499569142B0D17008B7997 /* MingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D949956A142B0D17008B7997 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9499573142B0D17008B7997 /* MingTests-Info.plist */ = {isa = PBXFileReference; path = "MingTests-Info.plist"; sourceTree = "<group>"; };
+		D9499575142B0D17008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9499577142B0D17008B7997 /* MingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MingTests.h; sourceTree = "<group>"; };
+		D9499579142B0D17008B7997 /* MingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9499542142B0D16008B7997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D949954A142B0D16008B7997 /* UIKit.framework in Frameworks */,
+				D949954C142B0D16008B7997 /* Foundation.framework in Frameworks */,
+				D949954E142B0D16008B7997 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9499565142B0D17008B7997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D949956B142B0D17008B7997 /* SenTestingKit.framework in Frameworks */,
+				D949956C142B0D17008B7997 /* UIKit.framework in Frameworks */,
+				D949956D142B0D17008B7997 /* Foundation.framework in Frameworks */,
+				D949956E142B0D17008B7997 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D949953A142B0D16008B7997 = {
+			isa = PBXGroup;
+			children = (
+				D949954F142B0D16008B7997 /* Ming */,
+				D9499571142B0D17008B7997 /* MingTests */,
+				D9499548142B0D16008B7997 /* Frameworks */,
+				D9499546142B0D16008B7997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9499546142B0D16008B7997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9499545142B0D16008B7997 /* Ming.app */,
+				D9499569142B0D17008B7997 /* MingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9499548142B0D16008B7997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9499549142B0D16008B7997 /* UIKit.framework */,
+				D949954B142B0D16008B7997 /* Foundation.framework */,
+				D949954D142B0D16008B7997 /* CoreGraphics.framework */,
+				D949956A142B0D17008B7997 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D949954F142B0D16008B7997 /* Ming */ = {
+			isa = PBXGroup;
+			children = (
+				D9499558142B0D16008B7997 /* MingAppDelegate.h */,
+				D9499559142B0D16008B7997 /* MingAppDelegate.m */,
+				D949955B142B0D16008B7997 /* MainWindow.xib */,
+				D949955E142B0D16008B7997 /* MingViewController.h */,
+				D949955F142B0D16008B7997 /* MingViewController.m */,
+				D9499561142B0D16008B7997 /* MingViewController.xib */,
+				D9499550142B0D16008B7997 /* Supporting Files */,
+			);
+			path = Ming;
+			sourceTree = "<group>";
+		};
+		D9499550142B0D16008B7997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9499551142B0D16008B7997 /* Ming-Info.plist */,
+				D9499552142B0D16008B7997 /* InfoPlist.strings */,
+				D9499555142B0D16008B7997 /* main.m */,
+				D9499557142B0D16008B7997 /* Ming-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9499571142B0D17008B7997 /* MingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9499577142B0D17008B7997 /* MingTests.h */,
+				D9499579142B0D17008B7997 /* MingTests.m */,
+				D9499572142B0D17008B7997 /* Supporting Files */,
+			);
+			path = MingTests;
+			sourceTree = "<group>";
+		};
+		D9499572142B0D17008B7997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9499573142B0D17008B7997 /* MingTests-Info.plist */,
+				D9499574142B0D17008B7997 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9499544142B0D16008B7997 /* Ming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D949957D142B0D17008B7997 /* Build configuration list for PBXNativeTarget "Ming" */;
+			buildPhases = (
+				D9499541142B0D16008B7997 /* Sources */,
+				D9499542142B0D16008B7997 /* Frameworks */,
+				D9499543142B0D16008B7997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ming;
+			productName = Ming;
+			productReference = D9499545142B0D16008B7997 /* Ming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9499568142B0D17008B7997 /* MingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9499580142B0D17008B7997 /* Build configuration list for PBXNativeTarget "MingTests" */;
+			buildPhases = (
+				D9499564142B0D17008B7997 /* Sources */,
+				D9499565142B0D17008B7997 /* Frameworks */,
+				D9499566142B0D17008B7997 /* Resources */,
+				D9499567142B0D17008B7997 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9499570142B0D17008B7997 /* PBXTargetDependency */,
+			);
+			name = MingTests;
+			productName = MingTests;
+			productReference = D9499569142B0D17008B7997 /* MingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D949953C142B0D16008B7997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SHU;
+			};
+			buildConfigurationList = D949953F142B0D16008B7997 /* Build configuration list for PBXProject "Ming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D949953A142B0D16008B7997;
+			productRefGroup = D9499546142B0D16008B7997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9499544142B0D16008B7997 /* Ming */,
+				D9499568142B0D17008B7997 /* MingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9499543142B0D16008B7997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9499554142B0D16008B7997 /* InfoPlist.strings in Resources */,
+				D949955D142B0D16008B7997 /* MainWindow.xib in Resources */,
+				D9499563142B0D16008B7997 /* MingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9499566142B0D17008B7997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9499576142B0D17008B7997 /* InfoPlist.strings in Resources */,
+				D9499578142B0D17008B7997 /* MingTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9499567142B0D17008B7997 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9499541142B0D16008B7997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9499556142B0D16008B7997 /* main.m in Sources */,
+				D949955A142B0D16008B7997 /* MingAppDelegate.m in Sources */,
+				D9499560142B0D16008B7997 /* MingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9499564142B0D17008B7997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D949957A142B0D17008B7997 /* MingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9499570142B0D17008B7997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9499544142B0D16008B7997 /* Ming */;
+			targetProxy = D949956F142B0D17008B7997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9499552142B0D16008B7997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9499553142B0D16008B7997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D949955B142B0D16008B7997 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D949955C142B0D16008B7997 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D9499561142B0D16008B7997 /* MingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9499562142B0D16008B7997 /* en */,
+			);
+			name = MingViewController.xib;
+			sourceTree = "<group>";
+		};
+		D9499574142B0D17008B7997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9499575142B0D17008B7997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D949957B142B0D17008B7997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D949957C142B0D17008B7997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D949957E142B0D17008B7997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ming/Ming-Prefix.pch";
+				INFOPLIST_FILE = "Ming/Ming-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D949957F142B0D17008B7997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ming/Ming-Prefix.pch";
+				INFOPLIST_FILE = "Ming/Ming-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9499581142B0D17008B7997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ming.app/Ming";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ming/Ming-Prefix.pch";
+				INFOPLIST_FILE = "MingTests/MingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9499582142B0D17008B7997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ming.app/Ming";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ming/Ming-Prefix.pch";
+				INFOPLIST_FILE = "MingTests/MingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D949953F142B0D16008B7997 /* Build configuration list for PBXProject "Ming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D949957B142B0D17008B7997 /* Debug */,
+				D949957C142B0D17008B7997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D949957D142B0D17008B7997 /* Build configuration list for PBXNativeTarget "Ming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D949957E142B0D17008B7997 /* Debug */,
+				D949957F142B0D17008B7997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9499580142B0D17008B7997 /* Build configuration list for PBXNativeTarget "MingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9499581142B0D17008B7997 /* Debug */,
+				D9499582142B0D17008B7997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D949953C142B0D16008B7997 /* Project object */;
+}

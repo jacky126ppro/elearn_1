@@ -7,12 +7,46 @@
 //
 
 #import "MingViewController.h"
+#import "EView.h"
+#import "MyMoviePlayer2AppDelegate.h"
+#import "mymv.h"
+
+#import "RootViewController.h"
+#import "DetailViewController.h"
+
+
+
 
 @implementation MingViewController
 
+
+-(IBAction)GoToElearn:(id)sender
+{
+    EView *eView = [[EView alloc]initWithNibName:@"EView" bundle:nil];
+    [self.view.superview addSubview:eView.view];
+    [self.view removeFromSuperview];
+    [EView release];
+
+}
+-(IBAction)GoToVideo:(id)sender
+{
+    delegate = [[UIApplication sharedApplication]delegate];
+    [self.view.superview addSubview:delegate.splitViewController.view];
+    //mymv *mmymv = [[mymv alloc]initWithNibName:@"mymv" bundle:nil];
+    //[self.view.superview addSubview:mmymv.view];
+    //[self.view removeFromSuperview];
+    //[mymv release];
+    ///MyMoviePlayer2AppDelegate *delegate = [[MyMoviePlayer2AppDelegate alloc]initWithNibName:@"delegate" bundle:nil];
+    
+    ///[delegate.window makeKeyWindow];
+    ///[self.view.superview :delegate.splitViewController.view];
+    //[self.view removeFromSuperview];
+    //[MyMoviePlayer2AppDelegate release];
+}
+
 - (void)didReceiveMemoryWarning
 {
-    // Releases the view if it doesn't have a superview.
+    // Releases the view if it doesn't have a ssuperview.
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.

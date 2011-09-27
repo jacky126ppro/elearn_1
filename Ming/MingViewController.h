@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class MyMoviePlayer2AppDelegate;
 @interface MingViewController : UIViewController
+{
+    IBOutlet MyMoviePlayer2AppDelegate *delegate;
+}
+
+-(IBAction)GoToElearn:(id)sender;
+-(IBAction)GoToVideo:(id)sender;
 
 @end

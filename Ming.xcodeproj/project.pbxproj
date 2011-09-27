@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF14FA3114316F3C00E30B55 /* mymv.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14FA2F14316F3C00E30B55 /* mymv.m */; };
+		AF14FA3214316F3C00E30B55 /* mymv.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF14FA3014316F3C00E30B55 /* mymv.xib */; };
+		AF290423142C6A4F00AF4A95 /* MyMoviePlayer2AppDelegate.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF290422142C6A4F00AF4A95 /* MyMoviePlayer2AppDelegate.xib */; };
+		AF29042E142C6A8300AF4A95 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF290425142C6A8300AF4A95 /* DetailViewController.m */; };
+		AF29042F142C6A8300AF4A95 /* MyMoviePlayer2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF290427142C6A8300AF4A95 /* MyMoviePlayer2AppDelegate.m */; };
+		AF290430142C6A8300AF4A95 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF290429142C6A8300AF4A95 /* RootViewController.m */; };
+		AF290431142C6A8300AF4A95 /* RSSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AF29042B142C6A8300AF4A95 /* RSSObject.m */; };
+		AF290432142C6A8300AF4A95 /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF29042D142C6A8300AF4A95 /* RSSParser.m */; };
+		AF290450142C7FDF00AF4A95 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF29044F142C7FDF00AF4A95 /* MediaPlayer.framework */; };
+		AF417BB5142C6A1F000C98BA /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF417BB4142C6A1F000C98BA /* DetailView.xib */; };
+		AFDDB9A7142DA35B00A8AC6C /* mpview.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFDDB9A6142DA35B00A8AC6C /* mpview.xib */; };
 		D949954A142B0D16008B7997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9499549142B0D16008B7997 /* UIKit.framework */; };
 		D949954C142B0D16008B7997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949954B142B0D16008B7997 /* Foundation.framework */; };
 		D949954E142B0D16008B7997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949954D142B0D16008B7997 /* CoreGraphics.framework */; };
@@ -23,6 +34,8 @@
 		D9499576142B0D17008B7997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9499574142B0D17008B7997 /* InfoPlist.strings */; };
 		D9499578142B0D17008B7997 /* MingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D9499577142B0D17008B7997 /* MingTests.h */; };
 		D949957A142B0D17008B7997 /* MingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9499579142B0D17008B7997 /* MingTests.m */; };
+		D9499586142B0D36008B7997 /* EView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9499584142B0D36008B7997 /* EView.m */; };
+		D9499587142B0D36008B7997 /* EView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9499585142B0D36008B7997 /* EView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,26 +49,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF14FA2E14316F3C00E30B55 /* mymv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mymv.h; sourceTree = "<group>"; };
+		AF14FA2F14316F3C00E30B55 /* mymv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mymv.m; sourceTree = "<group>"; };
+		AF14FA3014316F3C00E30B55 /* mymv.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mymv.xib; sourceTree = "<group>"; };
+		AF290422142C6A4F00AF4A95 /* MyMoviePlayer2AppDelegate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMoviePlayer2AppDelegate.xib; sourceTree = "<group>"; };
+		AF290424142C6A8300AF4A95 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AF290425142C6A8300AF4A95 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AF290426142C6A8300AF4A95 /* MyMoviePlayer2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMoviePlayer2AppDelegate.h; sourceTree = "<group>"; };
+		AF290427142C6A8300AF4A95 /* MyMoviePlayer2AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMoviePlayer2AppDelegate.m; sourceTree = "<group>"; };
+		AF290428142C6A8300AF4A95 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AF290429142C6A8300AF4A95 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AF29042A142C6A8300AF4A95 /* RSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSObject.h; sourceTree = "<group>"; };
+		AF29042B142C6A8300AF4A95 /* RSSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSObject.m; sourceTree = "<group>"; };
+		AF29042C142C6A8300AF4A95 /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
+		AF29042D142C6A8300AF4A95 /* RSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParser.m; sourceTree = "<group>"; };
+		AF29044F142C7FDF00AF4A95 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AF417BB4142C6A1F000C98BA /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailView.xib; path = ../DetailView.xib; sourceTree = "<group>"; };
+		AFDDB9A6142DA35B00A8AC6C /* mpview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mpview.xib; sourceTree = "<group>"; };
 		D9499545142B0D16008B7997 /* Ming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9499549142B0D16008B7997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D949954B142B0D16008B7997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D949954D142B0D16008B7997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D9499551142B0D16008B7997 /* Ming-Info.plist */ = {isa = PBXFileReference; path = "Ming-Info.plist"; sourceTree = "<group>"; };
+		D9499551142B0D16008B7997 /* Ming-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ming-Info.plist"; sourceTree = "<group>"; };
 		D9499553142B0D16008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9499555142B0D16008B7997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9499557142B0D16008B7997 /* Ming-Prefix.pch */ = {isa = PBXFileReference; path = "Ming-Prefix.pch"; sourceTree = "<group>"; };
-		D9499558142B0D16008B7997 /* MingAppDelegate.h */ = {isa = PBXFileReference; path = MingAppDelegate.h; sourceTree = "<group>"; };
+		D9499557142B0D16008B7997 /* Ming-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ming-Prefix.pch"; sourceTree = "<group>"; };
+		D9499558142B0D16008B7997 /* MingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MingAppDelegate.h; sourceTree = "<group>"; };
 		D9499559142B0D16008B7997 /* MingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingAppDelegate.m; sourceTree = "<group>"; };
 		D949955C142B0D16008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D949955E142B0D16008B7997 /* MingViewController.h */ = {isa = PBXFileReference; path = MingViewController.h; sourceTree = "<group>"; };
+		D949955E142B0D16008B7997 /* MingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MingViewController.h; sourceTree = "<group>"; };
 		D949955F142B0D16008B7997 /* MingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingViewController.m; sourceTree = "<group>"; };
 		D9499562142B0D16008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MingViewController.xib; sourceTree = "<group>"; };
 		D9499569142B0D17008B7997 /* MingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D949956A142B0D17008B7997 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D9499573142B0D17008B7997 /* MingTests-Info.plist */ = {isa = PBXFileReference; path = "MingTests-Info.plist"; sourceTree = "<group>"; };
+		D9499573142B0D17008B7997 /* MingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MingTests-Info.plist"; sourceTree = "<group>"; };
 		D9499575142B0D17008B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9499577142B0D17008B7997 /* MingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MingTests.h; sourceTree = "<group>"; };
 		D9499579142B0D17008B7997 /* MingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingTests.m; sourceTree = "<group>"; };
+		D9499583142B0D36008B7997 /* EView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EView.h; sourceTree = "<group>"; };
+		D9499584142B0D36008B7997 /* EView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EView.m; sourceTree = "<group>"; };
+		D9499585142B0D36008B7997 /* EView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF290450142C7FDF00AF4A95 /* MediaPlayer.framework in Frameworks */,
 				D949954A142B0D16008B7997 /* UIKit.framework in Frameworks */,
 				D949954C142B0D16008B7997 /* Foundation.framework in Frameworks */,
 				D949954E142B0D16008B7997 /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +120,7 @@
 		D949953A142B0D16008B7997 = {
 			isa = PBXGroup;
 			children = (
+				AF29044F142C7FDF00AF4A95 /* MediaPlayer.framework */,
 				D949954F142B0D16008B7997 /* Ming */,
 				D9499571142B0D17008B7997 /* MingTests */,
 				D9499548142B0D16008B7997 /* Frameworks */,
@@ -116,12 +151,31 @@
 		D949954F142B0D16008B7997 /* Ming */ = {
 			isa = PBXGroup;
 			children = (
+				AFDDB9A6142DA35B00A8AC6C /* mpview.xib */,
+				AF290424142C6A8300AF4A95 /* DetailViewController.h */,
+				AF290425142C6A8300AF4A95 /* DetailViewController.m */,
+				AF290426142C6A8300AF4A95 /* MyMoviePlayer2AppDelegate.h */,
+				AF290427142C6A8300AF4A95 /* MyMoviePlayer2AppDelegate.m */,
+				AF290428142C6A8300AF4A95 /* RootViewController.h */,
+				AF290429142C6A8300AF4A95 /* RootViewController.m */,
+				AF29042A142C6A8300AF4A95 /* RSSObject.h */,
+				AF29042B142C6A8300AF4A95 /* RSSObject.m */,
+				AF29042C142C6A8300AF4A95 /* RSSParser.h */,
+				AF29042D142C6A8300AF4A95 /* RSSParser.m */,
+				AF290422142C6A4F00AF4A95 /* MyMoviePlayer2AppDelegate.xib */,
+				AF417BB4142C6A1F000C98BA /* DetailView.xib */,
+				D9499583142B0D36008B7997 /* EView.h */,
+				D9499584142B0D36008B7997 /* EView.m */,
+				D9499585142B0D36008B7997 /* EView.xib */,
 				D9499558142B0D16008B7997 /* MingAppDelegate.h */,
 				D9499559142B0D16008B7997 /* MingAppDelegate.m */,
 				D949955B142B0D16008B7997 /* MainWindow.xib */,
 				D949955E142B0D16008B7997 /* MingViewController.h */,
 				D949955F142B0D16008B7997 /* MingViewController.m */,
 				D9499561142B0D16008B7997 /* MingViewController.xib */,
+				AF14FA2E14316F3C00E30B55 /* mymv.h */,
+				AF14FA2F14316F3C00E30B55 /* mymv.m */,
+				AF14FA3014316F3C00E30B55 /* mymv.xib */,
 				D9499550142B0D16008B7997 /* Supporting Files */,
 			);
 			path = Ming;
@@ -230,6 +284,11 @@
 				D9499554142B0D16008B7997 /* InfoPlist.strings in Resources */,
 				D949955D142B0D16008B7997 /* MainWindow.xib in Resources */,
 				D9499563142B0D16008B7997 /* MingViewController.xib in Resources */,
+				D9499587142B0D36008B7997 /* EView.xib in Resources */,
+				AF417BB5142C6A1F000C98BA /* DetailView.xib in Resources */,
+				AF290423142C6A4F00AF4A95 /* MyMoviePlayer2AppDelegate.xib in Resources */,
+				AFDDB9A7142DA35B00A8AC6C /* mpview.xib in Resources */,
+				AF14FA3214316F3C00E30B55 /* mymv.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +327,13 @@
 				D9499556142B0D16008B7997 /* main.m in Sources */,
 				D949955A142B0D16008B7997 /* MingAppDelegate.m in Sources */,
 				D9499560142B0D16008B7997 /* MingViewController.m in Sources */,
+				D9499586142B0D36008B7997 /* EView.m in Sources */,
+				AF29042E142C6A8300AF4A95 /* DetailViewController.m in Sources */,
+				AF29042F142C6A8300AF4A95 /* MyMoviePlayer2AppDelegate.m in Sources */,
+				AF290430142C6A8300AF4A95 /* RootViewController.m in Sources */,
+				AF290431142C6A8300AF4A95 /* RSSObject.m in Sources */,
+				AF290432142C6A8300AF4A95 /* RSSParser.m in Sources */,
+				AF14FA3114316F3C00E30B55 /* mymv.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +513,7 @@
 				D949957F142B0D17008B7997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9499580142B0D17008B7997 /* Build configuration list for PBXNativeTarget "MingTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +522,7 @@
 				D9499582142B0D17008B7997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
